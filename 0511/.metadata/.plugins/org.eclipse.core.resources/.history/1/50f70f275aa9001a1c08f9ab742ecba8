@@ -1,0 +1,61 @@
+package product;
+
+import java.sql.CallableStatement;
+import java.sql.ResultSet;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
+import database.Database;
+import database.SqlVO;
+
+public class ProductDAO {
+	public JSONObject list(SqlVO vo) {
+		JSONObject jObject = new JSONObject();
+		CallableStatement cs = null;
+		ResultSet rs = null;
+		try {
+			String sql = "{call list(?,?,?,?,?,?,?,?,?)}";
+			cs = Database.CON.prepareCall(sql);
+			String tbl = "(select p.*, mall_name from product p, mall m where p.mall_id=m.mall_id)";
+			cs.setString(1, "product");
+			cs.setString(2, vo.getKey());
+			cs.setString(3, vo.getWord());
+			cs.setString(4, vo.getOrder());
+			cs.setString(5, vo.getDesc());
+			cs.setInt(6, vo.getPage());
+			cs.setInt(7, vo.getPerPage());
+			cs.registerOutParameter(8, oracle.jdbc.OracleTypes.CURSOR);
+			cs.registerOutParameter(9, oracle.jdbc.OracleTypes.INTEGER);
+			cs.execute();
+			rs = (ResultSet) cs.getObject(8);
+			JSONArray jArray = new JSONArray();
+			while (rs.next()) {
+				JSONObject obj = new JSONObject();
+				obj.put("prod_id", rs.getString("prod_id"));
+				obj.put("prod_name", rs.getString("prod_name"));
+				obj.put("mall_name", rs.getString("mall_name"));
+				obj.put("company", rs.getString("company"));
+				obj.put("price1", rs.getInt("price1"));
+				obj.put("price2", rs.getInt("price2"));
+				jArray.add(obj);
+			}
+			jObject.put("array", jArray);
+			int count = cs.getInt(9);
+			int perPage = vo.getPerPage();
+			int totPage = count % perPage == 0 ? count / perPage : (count / perPage) + 1;
+			jObject.put("count", count);
+			jObject.put("totPage", totPage);
+			jObject.put("page", vo.getPage());
+		} catch (Exception e) {
+			System.out.println("상품목록:" + e.toString());
+		} finally {
+			try {
+				rs.close();
+				cs.close();
+			} catch (Exception e) {
+			}
+		}
+		return jObject;
+	}
+}

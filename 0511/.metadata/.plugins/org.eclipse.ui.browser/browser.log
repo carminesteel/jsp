@@ -1,0 +1,71 @@
+
+5월 12, 2020 09:08:58.86 NEW SESSION
+5월 12, 2020 09:08:58.86 [4176:2168:0512/090858.859:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 12, 2020 09:42:18.75 [4880:2116:0512/094218.755:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 12, 2020 09:42:22.72 [492:3840:0512/094222.727:ERROR:browser_switcher_service.cc(238)] XXX Init()
+
+5월 13, 2020 12:52:43.26 NEW SESSION
+5월 13, 2020 12:52:43.26 [4708:3960:0513/125243.265:ERROR:browser_switcher_service.cc(238)] XXX Init()
+
+5월 15, 2020 08:42:38.75 NEW SESSION
+5월 15, 2020 08:42:38.75 [1492:4952:0515/084238.750:ERROR:browser_switcher_service.cc(238)] XXX Init()
+
+5월 15, 2020 17:16:02.07 NEW SESSION
+5월 15, 2020 17:16:02.07 [3764:6424:0515/171602.068:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 15, 2020 17:56:39.75 [5952:5036:0515/175639.756:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 15, 2020 17:58:31.94 [4464:5132:0515/175831.943:ERROR:browser_switcher_service.cc(238)] XXX Init()
+
+5월 18, 2020 16:37:56.14 NEW SESSION
+5월 18, 2020 16:37:56.14 [4536:5040:0518/163756.149:ERROR:browser_switcher_service.cc(238)] XXX Init()
+
+5월 19, 2020 08:29:52.67 NEW SESSION
+5월 19, 2020 08:29:52.67 [852:1004:0519/082952.669:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 19, 2020 08:31:53.02 [4540:4716:0519/083153.023:ERROR:browser_switcher_service.cc(238)] XXX Init()
+
+5월 20, 2020 16:07:32.30 NEW SESSION
+5월 20, 2020 16:07:32.30 [6312:3212:0520/160732.297:ERROR:browser_switcher_service.cc(238)] XXX Init()
+
+5월 21, 2020 09:29:27.79 NEW SESSION
+5월 21, 2020 09:29:27.79 [4604:4448:0521/092927.790:ERROR:browser_switcher_service.cc(238)] XXX Init()
+
+5월 21, 2020 13:41:52.25 NEW SESSION
+5월 21, 2020 13:41:52.25 [5416:5020:0521/134152.251:ERROR:browser_switcher_service.cc(238)] XXX Init()
+
+5월 22, 2020 09:13:13.40 NEW SESSION
+5월 22, 2020 09:13:13.40 [3384:1792:0522/091313.402:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 22, 2020 15:32:41.12 [5792:5900:0522/153241.126:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 22, 2020 16:06:05.56 [4540:3408:0522/160605.567:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 22, 2020 16:06:43.54 [6072:4348:0522/160643.548:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 22, 2020 16:20:37.83 [5984:4376:0522/162037.831:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 22, 2020 17:18:40.80 [6972:5504:0522/171840.807:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 22, 2020 17:21:34.74 [5952:5516:0522/172134.740:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 22, 2020 17:23:03.85 [7116:3984:0522/172303.851:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 22, 2020 17:24:03.36 [5704:5572:0522/172403.367:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 22, 2020 17:25:12.68 [4312:6888:0522/172512.685:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 22, 2020 17:28:02.95 [5512:4980:0522/172802.952:ERROR:browser_switcher_service.cc(238)] XXX Init()
+
+6월 16, 2020 22:47:19.19 NEW SESSION
+6월 16, 2020 22:47:19.19 [0616/224719.188:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 16, 2020 22:47:19.19 [0616/224719.189:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 16, 2020 22:47:19.40 [11268:3532:0616/224719.400:ERROR:data_pack.cc(120)] Could not open pak file for writing: 요청한 작업은, 사용자가 매핑한 구역이 열려 있는 상태인 파일에서 수행할 수 없습니다. (0x4C8)
+6월 16, 2020 22:47:20.71 [11268:1856:0616/224720.717:ERROR:device_event_log_impl.cc(208)] [22:47:20.717] Bluetooth: bluetooth_adapter_winrt.cc:1060 Getting Default Adapter failed.
+6월 16, 2020 22:57:19.18 [0616/225719.189:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 16, 2020 22:57:19.19 [0616/225719.189:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 16, 2020 22:57:19.19 [0616/225719.190:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 16, 2020 22:57:19.20 [0616/225719.190:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 16, 2020 23:02:19.18 [0616/230219.189:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 16, 2020 23:02:19.19 [0616/230219.189:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 16, 2020 23:17:19.19 [0616/231719.191:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 16, 2020 23:17:19.19 [0616/231719.192:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 16, 2020 23:32:19.19 [0616/233219.193:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 16, 2020 23:32:19.19 [0616/233219.194:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 16, 2020 23:47:19.19 [0616/234719.195:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 16, 2020 23:47:19.20 [0616/234719.195:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 17, 2020 24:02:19.19 [0617/000219.196:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 17, 2020 24:02:19.20 [0617/000219.196:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 17, 2020 24:17:19.19 [0617/001719.197:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 17, 2020 24:17:19.20 [0617/001719.198:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 17, 2020 24:32:19.19 [0617/003219.198:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 17, 2020 24:32:19.20 [0617/003219.198:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 17, 2020 24:47:19.19 [0617/004719.199:ERROR:crash_report_database_win.cc(469)] failed to stat report
+6월 17, 2020 24:47:19.20 [0617/004719.199:ERROR:crash_report_database_win.cc(469)] failed to stat report

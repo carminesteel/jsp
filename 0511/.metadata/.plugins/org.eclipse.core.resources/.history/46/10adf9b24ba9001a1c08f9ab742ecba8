@@ -1,0 +1,20 @@
+package mall;
+
+import org.json.simple.*;
+
+import database.SqlVO;
+
+public class MallDAO {
+	//업체목록 출력
+	public JSONObject list(SqlVO vo) {
+		JSONObject jObject=new JSONObject();
+		try {
+			String sql="{call list()}";
+			
+		}catch(Exception e) {
+			System.out.println("업체목록 출력:" + e.toString());
+			
+		}
+		return jObject;
+	}
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>지역검색</title>
+</head>
+<body>
+<div id="divPage">
+		<div id="divHeader">
+			<h2>장소검색</h2>
+		</div>
+		<div id="divCondition">
+
+			<input type="text" id="query" value="자바"> <input
+				type="button" value="검색" id="btnSearch"> <select
+				id="display">
+				<option value=5>5행 출력</option>
+				<option value=10>10행 출력</option>
+			</select> 검색건수 : <span id=total></span>
+		</div>
+		<table id="tbl"></table>
+		<script id="temp" type="text/x-handlebars-template">
+		<tr>
+			<td class="tdTitle1" width=270px>장소이름</td>
+		</tr>	
+	{{#each documents}}
+		<tr class="row">
+			<td>{{place_name}}</td>
+			<td>{{phone}}</td>
+			<td>{{{description}}}</td>
+		</tr>
+	{{/each}}
+	</script>
+		<div id="pagination">
+			<button id="btnPre">◀</button>
+			<button id="btnNext">▶</button>
+			[<span id="curPage"></span>/<span id="totPage"></span>]
+		</div>
+	</div>
+</body>
+</html>

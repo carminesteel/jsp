@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+      <div id="divTop">
+         <table>
+            <tr>
+               <td></td>
+               <td style=size:400><a href="">투웨니포세븐</a></td>
+               <td><a href="">로그인</a></td>
+               <td><a href="">회원가입</a></td>
+               <td><a href="">고객센터</a></td>
+               <td><a href="">회사소개</a></td>
+            <tr>
+         </table>
+      </div>

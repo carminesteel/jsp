@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body{background:white;}
+#divPage{width:810px; background:#2DB400;margin:auto; padding:15px;}
+#divTop{padding:30px 0px 0px 0px; text-align:center;}
+#divCenter{border:1px solid green; margin:0px 10px 0px 10px; padding-bottom:20px;}
+#divMenu{overflow:hidden; background:white; margin:0px 0px 20px 0px;text-align:center;padding:10px; border-bottom:1px solid green;}
+#divMenu .item a{width:80px;float:right;color:#2DB400;font-weight:bold;}
+#divContent{}
+#divBottom{padding:0px 0px 10px 0px; text-align:center;}
+#divHeader{text-align:center;color:white;}
+#divCondition{overflow:hidden; margin:auto; margin-bottom:15px;text-align:center}
+#divSearch{float:left;}
+#divSort{float:right;}
+#pagination{margin:auto;width:810px;height:25px;display:inline-block;text-align:center;margin-top:15px;}
+#tbl{text-align:center;margin:auto}
+.box{width:200px;height:204.88px;margin-bottom:15px;}
+.row .pcode, .row .pname, .row .hiredate, .row .dept, .row .ptitle{text-align:center;}
+.row .scode, .row .sname, .row .year, .row .birthday, .row .edate, .row .advisor{text-align:center;}
+.row .lcode, .row .room, .row .hours, .row .capacity, .row .persons,.row .lname{text-align:center;}
+.row .salary, .row .grade{text-align:right;}
+a{text-decoration:none; color:black;font-size:13px;}
+a:hover{font-weight:bold;background-color:#2DB400;}
+select, input, button {height:23px; font-size:12px;}
+input[type="radio"]{height:12px;}
+table {border-radius:25px;border:4px solid white;margin:auto; margin-bottom:10px;border-color:"#2DB400";}
+td{height:30px; font-size:12px;padding:0px 5px 0px 5px;}
+td button{text-align:center;}
+input[type="radio"]{height:12px;}
+input[name="yy"], input[name="mm"], input[name="dd"], #yy,#mm,#dd {text-align:center;}
+input[name="salary"], input[name="capacity"], input[name="persons"], input[name="hours"]{text-align:right;}

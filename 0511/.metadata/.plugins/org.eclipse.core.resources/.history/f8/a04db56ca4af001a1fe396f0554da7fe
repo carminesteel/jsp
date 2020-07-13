@@ -1,0 +1,64 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>24/7 TFS</title>
+</head>
+<body>
+	<div id="divPage">
+		<div id="divCenter" style=height:1000px>
+			<div id="divTop"><jsp:include page="top.jsp" /></div>
+			<div id="main" style=background-color:white;width:1100px;height:490px;margin:auto;>
+			<table id="bigMenu" style=background-color:white;width:818px;height:80px;margin:auto;>
+				<tr>
+					<td style=width:50%><img src="tfs_logo.JPG"></td>
+					<td style=text-align:right;padding-right:5px;>상품리스트</td>
+					<td style=text-align:right;padding-right:5px;>현황관리</td>
+					<td style=text-align:right;padding-right:5px;>등록관리</td>
+					<td style=text-align:right;padding-right:5px;>이건어때</td>
+				</tr>
+			</table>
+			<div id="divContent" style=width:818px;margin:auto>
+				<!--여기에 내용출력 시작---------------------------- -->
+				<table style=background-color:white;width:818px;height:300px;text-align:center;margin:auto>
+					<tr>
+						<td><img src="corona.JPG"></td>
+						<td><img src="sidebanner.JPG"></td>
+					</tr>
+				</table>
+				
+				<table style=background-color:white;width:818px;height:55px;>
+					<tr>
+						<td>공지사항</td>
+						<td>사회공헌</td>
+						<td>보도자료</td>
+						<td>이벤트</td>
+						<td style=width:55%></td>
+					</tr>
+				</table>
+			</div>				
+			</div>
+			<div style=background:white;width:1598px;margin:auto>
+			<img src=bro.JPG style=float:left;width:390px><img src=sis.JPG style=float:right;width:390px>
+			<table style=background-color:skyblue;width:818px;height:328px;margin:auto;border-collapse:collapse;border-style:none;>
+				<tr style=height:70px>
+					<td style=background:#2761C1;width:25%;color:white;text-size:25px>관리자로그인</td>
+					<td style=background:#C14327;width:25%;color:white;text-size:25px>점주로그인</td>
+					<td style=background:#3BA22F;width:25%;color:white;text-size:25px>CEO한마디</td>
+					<td style=background:#828282;width:25%;color:white;text-size:25px>새로운 배달시스템</td>					
+				</tr>
+				<tr style=height:230px>
+					<td style=background:#2F5697;color:white>파</td>
+					<td style=background:#843423;color:white>빨</td>
+					<td style=background:#3A8530;color:white>초</td>
+					<td style=background:#535353;color:white>회</td>
+				</tr>
+			</table>
+			</div>
+			<div id="divFoot" style=text-align:center><jsp:include page="footer.jsp"/></div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body{background: #aa4b6b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height:1080px;}
+#header, #footer {text-align:center;}
+#page {background:white;width:980px;margin:auto;padding:20px;}
+#center{overflow:auto; border:2px solid black;height:550px;}
+#menu{width:180px;height:550px; float:left; padding:10px; border-right:solid black 1px}
+#content{width:720px;height:700px; float:right; padding:0px 10px 30px 20px;}
+.item {height:30px;} .item a{text-decoration:none; color:black;padding:5px;} .item a:hover{color:white; background:#6b6b83; background-size:150px;}
+table {border-collapse:collapse;} td{border:1px solid black;}
+#btnMenu{margin-top:5px;}
+.center{text-align:center;}
+select{height:23px;}
+#items{margin:auto;margin-top:50px;}
+.blank{width:85px; height:12px}
+#buttons{margin-top:10px;text-align:center;}
+h2{text-align:center;}
+#search{margin-bottom:15px;}
+#word{height:18px;}
+a{text-decoration:none;color:black}
+#bookinsert{text-align:center;margin-top:150px;}
+.number{width:10px}
+#form{margin-left:100px;}
+#buttons2{margin-top:10px;margin-right:90px;}

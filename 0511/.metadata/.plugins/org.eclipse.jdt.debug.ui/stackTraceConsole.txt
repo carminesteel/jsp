@@ -1,0 +1,13 @@
+switch(request.getServletPath()) {
+ case "/product/insert":
+ if(image != null) {
+ File file=new File(uploadPath + image);
+ String newName = prod_id + image.substring(image.indexOf("."));
+ File newFile=new File(uploadPath + newName);
+ file.renameTo(newFile);
+ vo.setImage(newName);
+ }
+ dao.insert(vo);
+ response.sendRedirect("list.jsp");
+ break;
+ }

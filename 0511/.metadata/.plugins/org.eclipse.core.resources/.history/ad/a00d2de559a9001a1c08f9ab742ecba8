@@ -1,0 +1,48 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>쇼핑몰</title>
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.js"></script>
+<link rel="stylesheet" href="../home.css" />
+</head>
+<body>
+	<div id="divPage">
+		<div id="divMenu"><jsp:include page="../menu.jsp" /></div>
+		<div id="divHeader">
+			<h2>상 품 목 록</h2>
+		</div>
+		<div id="divCondition">...</div>
+		<table id="tbl"></table>
+		<script id="temp" type="text/x-handlebars-template">
+ 			<tr class="title">
+ 				<td width=100>업체코드</td>
+ 				<td width=100>업체명</td>
+ 				<td width=300>주소</td>
+ 				<td width=150>전화번호</td>
+ 				<td width=150>이메일</td>
+ 			</tr>
+ 			{{#each array}}
+ 			<tr class="row">
+ 				<td>{{mall_id}}</td>
+ 				<td>{{mall_name}}</td>
+ 				<td>{{address}}</td>
+ 				<td>{{tel}}</td>
+ 				<td>{{email}}</td>
+ 			</tr>
+ 			{{/each}}
+ </script>
+		<div id="pagination">
+			<button id="btnPre">◀</button>
+			<button id="btnNext">▶</button>
+			[<span id="curPage"></span>/<span id="totPage"></span>]
+		</div>
+	</div>
+</body>
+<script>
+	var url = "/shop/product/list";
+</script>
+<script src="../home.js"></script>

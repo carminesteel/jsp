@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+      <div id="divTop">
+         <table>
+            <tr>
+               <td colspan=3></td>
+               <td><a href="/shop/index.jsp"></a>투웨니포세븐</td>
+               <td colspan=3><a href="/shop/index.jsp">로그인</a></td>
+               <td><a href="/shop/index.jsp">로그인</a></td>
+               <td><a href="/shop/index.jsp">회원가입</a></td>
+               <td><a href="/shop/index.jsp">고객센터</a></td>
+               <td><a href="/shop/index.jsp">회사소개</a></td>
+            <tr>
+         </table>
+      </div>

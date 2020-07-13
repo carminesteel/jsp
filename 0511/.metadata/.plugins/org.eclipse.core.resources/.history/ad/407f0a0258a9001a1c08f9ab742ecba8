@@ -1,0 +1,14 @@
+package product;
+
+public class ProductVO extends MallVO {
+	private String prod_id;
+	private String prod_name;
+	private String company;
+	private int price1;
+	private int price2;
+	private String detail;
+	private String image;
+	private String prod_del;
+	
+	
+}
